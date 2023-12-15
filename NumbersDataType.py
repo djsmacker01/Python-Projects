@@ -97,6 +97,7 @@ print(f"Area of rect2: {rect2.area()}")
 print(f"Is base of rect2 greater than 5? {rect2.is_base_greater_than()}")
 print(f"String representation of rect1: {str(rect1)}")
 print(f"Are rect1 and rect2 equal? {Rectangle.are_equal(rect1, rect2)}")
+print('')
 
 random_rect = Rectangle.create_random_rectangle()
 print(f"Random rectangle: {random_rect}")
