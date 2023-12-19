@@ -1,0 +1,44 @@
+[
+       {
+              "student_id": 1,
+              "student_name": "Jordan Smith",
+              "Date_of_Birth": "1999-02-23",
+              "Gender": "Male",
+              "Department": "Science"
+       },
+       {
+              "student_id": 2,
+              "student_name": "Lan Smith",
+              "Date_of_Birth": "1978-01-15",
+              "Gender": "Female",
+              "Department": "Civil Engineering"
+       },
+       {
+              "student_id": 3,
+              "student_name": "Micheal Smith",
+              "Date_of_Birth": "2015-01-23",
+              "Gender": "Male",
+              "Department": "Full Stack developer"
+       },
+       {
+              "student_id": 4,
+              "student_name": "Nurudeen Adedeji",
+              "Date_of_Birth": "2015-01-23",
+              "Gender": "Male",
+              "Department": "Front-End Developer"
+       },
+       {
+              "student_id": 5,
+              "student_name": "Sarah Jacobson",
+              "Date_of_Birth": "2015-01-23",
+              "Gender": "Female",
+              "Department": "Science"
+       },
+       {
+              "student_id": 6,
+              "student_name": " Max Cox",
+              "Date_of_Birth": "1990-01-23",
+              "Gender": "Female",
+              "Department": "Science"
+       }
+]
