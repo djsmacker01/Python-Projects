@@ -27,3 +27,5 @@ with open("StudentProfile.json", "w") as file:
     json.dump(student_profile,file,indent=7) 
 
 print(student_profile)        
+
+
