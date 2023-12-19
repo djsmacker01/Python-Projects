@@ -40,5 +40,19 @@
               "Date_of_Birth": "1990-01-23",
               "Gender": "Female",
               "Department": "Science"
+       },
+       {
+              "student_id": 6,
+              "student_name": "Max Cox",
+              "Date_of_Birth": "1990-01-23",
+              "Gender": "Female",
+              "Department": "Science"
+       },
+       {
+              "student_id": 7,
+              "student_name": "Max Cox",
+              "Date_of_Birth": "1990-01-23",
+              "Gender": "Female",
+              "Department": "Science"
        }
 ]
