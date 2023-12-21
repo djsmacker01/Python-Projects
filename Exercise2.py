@@ -32,5 +32,6 @@ while True:
             print("Employee added successfully!")
         else:
             print("Please submit a valid answer (Y/N).")
+            print("Please submit")
 
 
