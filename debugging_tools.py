@@ -46,3 +46,23 @@ def highestNumber(num):
 num_list = [78,20,30,40,100,60,]        
 output = highestNumber(num_list)
 print (f"Highest number is: {output}")
+
+# Try and effect error handling
+
+def division(a,b):
+    return (a/b)
+
+try:
+    result = division(10, 2)
+
+except Exception as e:
+    print(f"Error: {e}")
+
+else:
+    print("Code run successfully")
+
+finally:
+    print("This code can execute")
+
+
+
