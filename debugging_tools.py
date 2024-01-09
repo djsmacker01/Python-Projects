@@ -1,8 +1,13 @@
+# def profile(firstname,lastname):
+#     full_name = f"{firstname} {lastname}"
+#     print("Full Name :",full_name)
+
+
+# firstname = 'Smith'
+# lastname = 'Mathew'
+# profile(firstname,lastname)
+
 def profile(firstname,lastname):
-    full_name = f"{firstname} {lastname}"
-    print("Full Name :",full_name)
+    return f"{firstname} {lastname}"
 
-
-firstname = 'Smith'
-lastname = 'Mathew'
-profile(firstname,lastname)
+print(profile('smaith', 'Jackson'))   
