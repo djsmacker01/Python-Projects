@@ -86,6 +86,7 @@ try:
     assert len(num_list) > 0, "num_list should contain entries"
 except AssertionError as e:
     print(f"Error: {e}")
+    # 
 
 try:
     assert type(num_list) is list, "The inputeed should be list"  
