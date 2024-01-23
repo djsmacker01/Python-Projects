@@ -8,7 +8,7 @@ pf.new_job(friends)
 
 print(friends)  
 with open("main.json", "r+") as write_json:
-    edited_json = json.dumps(friends,indent = 3)
+    edited_json = json.dumps(friends,indent = 5)
     write_json.write(edited_json)
 # import json
 
