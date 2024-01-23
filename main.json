@@ -1,5 +1,6 @@
 [
     {
+   "friend_id" :1,    
   "name": "Rory",
   "age": 26,
   "friend_score": 9.5,
@@ -7,12 +8,14 @@
 },
 
 {
+    "friend_id" :2,  
   "name": "smacker",
   "age": 24,
   "friend_score": 6.5,
   "job": "Data Engineer"
 },
 {
+    "friend_id" :3,  
   "name": "smith",
   "age": 54,
   "friend_score": 8.5,
