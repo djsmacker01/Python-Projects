@@ -7,9 +7,9 @@ with open("main.json", "r+") as open_json:
 pf.new_job(friends)
 
 print(friends)  
-# with open("main.json", "r+") as write_json:
-#     edited_json = json.dumps(friends,indent = 4)
-#     write_json.write(edited_json)
+with open("main.json", "r+") as write_json:
+    edited_json = json.dumps(friends,indent = 3)
+    write_json.write(edited_json)
 # import json
 
 # # Open the JSON file for reading
