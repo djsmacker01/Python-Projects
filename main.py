@@ -5,8 +5,8 @@ with open("main.json", "r+") as open_json:
     friends = json.load(open_json)
 
 # pf.new_job(friends)
-pf.create_birthday(friends, friend_id = 1)
-
+# pf.create_birthday(friends, friend_id = 1)
+choice = input ("Would yo")
 print(friends)  
 with open("main.json", "w") as write_json:
     edited_json = json.dumps(friends,indent = 5)
