@@ -30,3 +30,26 @@ def new_job(data):
 
 #     new_job_title = input("What is the new job title?: ")
 #     data[entry]["job"] = new_job_title
+
+
+# create a new function called birthday, 
+# the function will auto increment the age value of the selected friend by one
+
+# def create_birthday(friend,friend_id):
+#     try:
+#         for friend in friend:
+#             if friend["friend_id"] == friend_id:
+#                 friend["age"] += 1
+#                 print(f" Happy birthday, My darling {friend['name']}! You are now {friend['age']} years old. ")
+#                 break
+#             else:
+#                 assert ValueError(f"Friend with friend_id {friend_id} not found.")
+#     except Exception as e:
+#         print(f"Error: {e}")
+
+def birthday(data):
+    while True:
+        try:
+            entry = int(input("what is the id of the friend who had a birthday?: "))  
+        except:
+            print("")   

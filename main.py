@@ -4,10 +4,11 @@ import indexFun as pf
 with open("main.json", "r+") as open_json:
     friends = json.load(open_json)
 
-pf.new_job(friends)
+# pf.new_job(friends)
+pf.create_birthday(friends, friend_id = 1)
 
 print(friends)  
-with open("main.json", "r+") as write_json:
+with open("main.json", "w") as write_json:
     edited_json = json.dumps(friends,indent = 5)
     write_json.write(edited_json)
 # import json

@@ -2,16 +2,16 @@
      {
           "friend_id": 1,
           "name": "Rory",
-          "age": 26,
+          "age": 28,
           "friend_score": 9.5,
-          "job": "Space Engineer"
+          "job": "enl"
      },
      {
           "friend_id": 2,
           "name": "smacker",
           "age": 24,
           "friend_score": 6.5,
-          "job": "engineer"
+          "job": "english"
      },
      {
           "friend_id": 3,
