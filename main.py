@@ -55,10 +55,10 @@ else:
     print("Please enter a valid answer")
 
 print(friends)
-
-
+print('...................')
 pf.new_friend(friends)
 
+print('...................')
 
 with open("friends.json", "w") as write_json:
     edited_json = json.dumps(friends, indent = 4)
