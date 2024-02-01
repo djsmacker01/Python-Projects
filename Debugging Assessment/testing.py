@@ -8,14 +8,20 @@ expectedRes = "......-...-..---"
 assert convert_to_morse_code(inputText) == expectedRes
 
 # Test Case 2: Handling of Unknown Characters
-input_text_2 = "hello123"
-expected_output_2 = "......-...-..---"
-assert convert_to_morse_code(input_text_2) == expected_output_2
+inputText_2 = "hello123"
+output = "......-...-..---"
+assert convert_to_morse_code(inputText_2) == output
 
 # Test Case 3: Case Sensitivity
 input_text_3 = "HelloWorld"
 expected_output_3 = "......-...-..---.-----.-..-.."
 assert convert_to_morse_code(input_text_3) == expected_output_3
+
+inputText_3 = ""
+output_1 = "" 
+assert convert_to_morse_code(inputText_3) == output_1
+# The expected output for an empty input is an empty string
+
 
 # Add more test cases as needed
 
