@@ -146,7 +146,7 @@ def convert_to_morse_code(text):
         # Extract the current character
         character = text[i]
         
-        # Check if the character is in the morse_chart (case-insensitive)
+        
         if character.lower() in morse_chart:
            
             conversion += morse_chart[character.lower()] + " "
