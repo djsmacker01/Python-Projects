@@ -33,8 +33,8 @@ print(convert_to_morse_code("python"))
 
 
 #  Test Case:Extensive character
-# Input: " "
-# Actual Output: 
+# Input: "The quick brown fox jumps over the lazy dog 123!@#$%^&*()"
+# Actual Output: ....--.--.-.-.--....-..---...-.-..-.-----.--.......-.-.-.....-..--..-.---...-
 
 # Enter text to convert: 
 #  
