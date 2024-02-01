@@ -22,7 +22,9 @@ output_1 = ""
 assert convert_to_morse_code(inputText_3) == output_1
 # The expected output for an empty input is an empty string
 
-
+input_text_5 = "The quick brown fox jumps over the lazy dog 123!@#$%^&*()"
+expected_output_5 = "- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .-- --- .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .---- ..--- ...-- ! @ # $ % ^ & * ( )"
+assert convert_to_morse_code(input_text_5) == expected_output_5
 # Add more test cases as needed
 
 
