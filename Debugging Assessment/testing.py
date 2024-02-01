@@ -25,6 +25,14 @@ assert convert_to_morse_code(inputText_3) == output_1
 inputText_1 = "The quick brown fox jumps over the lazy dog 123!@#$%^&*()"
 output = "- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .-- --- .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .---- ..--- ...-- ! @ # $ % ^ & * ( )"
 assert convert_to_morse_code(inputText_1) == output
+
+
+
+
+
+
+
+
 # import week10
 # print(week10.addnum(50,89))
 # print(week10.num)
