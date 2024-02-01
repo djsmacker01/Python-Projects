@@ -21,18 +21,11 @@ inputText_3 = ""
 output_1 = "" 
 assert convert_to_morse_code(inputText_3) == output_1
 # The expected output for an empty input is an empty string
-
-input_text_5 = "The quick brown fox jumps over the lazy dog 123!@#$%^&*()"
-expected_output_5 = "- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .-- --- .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .---- ..--- ...-- ! @ # $ % ^ & * ( )"
-assert convert_to_morse_code(input_text_5) == expected_output_5
-# Add more test cases as needed
-
-
-
-
+# To test for more extensive character 
+inputText_1 = "The quick brown fox jumps over the lazy dog 123!@#$%^&*()"
+output = "- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .-- --- .-.   - .... .   .-.. .- --.. -.--   -.. --- --.   .---- ..--- ...-- ! @ # $ % ^ & * ( )"
+assert convert_to_morse_code(inputText_1) == output
 # import week10
-
-
 # print(week10.addnum(50,89))
 # print(week10.num)
 # # answer = addnum(50,40)
