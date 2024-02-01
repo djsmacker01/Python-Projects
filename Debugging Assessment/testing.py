@@ -31,7 +31,12 @@ assert convert_to_morse_code(inputText_1) == output
 
 
 
+Test Case:Basic Input
 
+Input: "python"
+Expected Output:
+
+".... . .-.. .-.. ---"
 
 # import week10
 # print(week10.addnum(50,89))
