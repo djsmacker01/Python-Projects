@@ -32,12 +32,12 @@ print(convert_to_morse_code("python"))
 
 
 
-#  Test Case:Basic Input
-# Input: "python"
-# Actual Output: .--.-.---....-.
+#  Test Case:Empty input
+# Input: " "
+# Actual Output: 
 
-# Enter text to convert: python
-# .--. -.-- - .... --- -.
+# Enter text to convert: 
+#  
 
 # 
 # Enter text to convert: python
