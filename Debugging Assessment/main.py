@@ -43,6 +43,21 @@ def convert_to_morse_code(text):
 
 print(convert_to_morse_code(input("Enter text to convert: ")))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # morse_chart = {
 #     "a": ".-",
 #     "b": "-...",
