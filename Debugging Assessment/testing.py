@@ -3,7 +3,7 @@
 from main import convert_to_morse_code
 
 # Test Case 1: Basic Input
-input_text_1 = "hello"
+input_text_1 = "python"
 expected_output_1 = "......-...-..---"
 assert convert_to_morse_code(input_text_1) == expected_output_1
 
