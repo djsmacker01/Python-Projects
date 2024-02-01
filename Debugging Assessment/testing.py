@@ -13,9 +13,9 @@ output = "......-...-..---"
 assert convert_to_morse_code(inputText_2) == output
 
 # Test Case 3: Case Sensitivity
-input_text_3 = "HelloWorld"
-expected_output_3 = "......-...-..---.-----.-..-.."
-assert convert_to_morse_code(input_text_3) == expected_output_3
+inputText_3 = "HelloWorld"
+output_2 = "......-...-..---.-----.-..-.."
+assert convert_to_morse_code(inputText_3) == output_2
 
 inputText_3 = ""
 output_1 = "" 
