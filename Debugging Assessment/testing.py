@@ -34,7 +34,10 @@ print(convert_to_morse_code("python"))
 
 #  Test Case:Basic Input
 # Input: "python"
-# Expected Output: .--.-.---....-.
+# Actual Output: .--.-.---....-.
+
+# Enter text to convert: python
+# .--. -.-- - .... --- -.
 
 # 
 # Enter text to convert: python
