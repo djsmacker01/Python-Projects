@@ -34,9 +34,9 @@ print(convert_to_morse_code("python"))
 
 #  Test Case:Basic Input
 # Input: "python"
-# Expected Output:
+# Expected Output: .--.-.---....-.
 
-# ".... . .-.. .-.. ---"
+# 
 # Enter text to convert: python
 # -.---....-.
 # import week10
