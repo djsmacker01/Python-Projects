@@ -4,7 +4,7 @@ from main import convert_to_morse_code
 
 # Test Case 1: Basic Input
 inputText = "python"
-expectedRes = "......-...-..---"
+expectedRes = ".--.-.---....-."
 assert convert_to_morse_code(inputText) == expectedRes
 
 # Test Case 2: Handling of Unknown Characters
@@ -28,16 +28,17 @@ assert convert_to_morse_code(inputText_1) == output
 
 
 
+print(convert_to_morse_code("python"))
 
 
 
-Test Case:Basic Input
+#  Test Case:Basic Input
+# Input: "python"
+# Expected Output:
 
-Input: "python"
-Expected Output:
-
-".... . .-.. .-.. ---"
-
+# ".... . .-.. .-.. ---"
+# Enter text to convert: python
+# -.---....-.
 # import week10
 # print(week10.addnum(50,89))
 # print(week10.num)
