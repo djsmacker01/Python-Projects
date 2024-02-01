@@ -32,7 +32,7 @@ print(convert_to_morse_code("python"))
 
 
 
-#  Test Case:Empty input
+#  Test Case:Extensive character
 # Input: " "
 # Actual Output: 
 
