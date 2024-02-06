@@ -55,6 +55,6 @@ else:
     add_interest(accounts_data, interest_rate)
 
 # Write changes back to the original file
-with open("Data/accounts.json", "w") as outfile:
+with open("Account_Setup/accounts.json", "w") as outfile:
     accounts_as_json = json.dumps(accounts_data, indent=4)
     outfile.write(accounts_as_json)
