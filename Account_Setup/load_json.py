@@ -48,19 +48,19 @@ def numeric_input(prompt):
         except ValueError:
             print("Error: Please enter a valid integer.")
 
-# Example usage:
+
 
 first_name = input_text("Enter first name: ")
-last_name = get_text_input("Enter last name: ")
+last_name = input_text("Enter last name: ")
 
-account_number = numeric_input("Enter account number: ")
+account_no = numeric_input("Enter account number: ")
 sort_code = numeric_input("Enter sort code: ")
 initial_balance = numeric_input("Enter initial balance: ")
 
 print("User input:")
 print(f"First Name: {first_name}")
 print(f"Last Name: {last_name}")
-print(f"Account Number: {account_number}")
+print(f"Account Number: {account_no}")
 print(f"Sort Code: {sort_code}")
 print(f"Initial Balance: {initial_balance}")
 
