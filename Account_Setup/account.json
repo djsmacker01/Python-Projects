@@ -1,23 +1,22 @@
 [
     {
-        "id" : 0,
-        "first_name" : "John",
-        "last_name" : "Doe",
-        "account-no/sort_code" : [12345678, 102030],
-        "balance" : 100
+        "id": 1,
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "account-no/sort_code": [
+            23456789,
+            102030
+        ],
+        "balance": 80000
     },
     {
-        "id" : 1,
-        "first_name" : "Jane",
-        "last_name" : "Doe",
-        "account-no/sort_code" : [23456789, 102030],
-        "balance" : 80000
-    },
-    {
-        "id" : 2,
-        "first_name" : "Nick",
-        "last_name" : "Cage",
-        "account-no/sort_code" : [34567891, 102030],
-        "balance" : 5000
+        "id": 2,
+        "first_name": "Nick",
+        "last_name": "Cage",
+        "account-no/sort_code": [
+            34567891,
+            102030
+        ],
+        "balance": 5000
     }
 ]
