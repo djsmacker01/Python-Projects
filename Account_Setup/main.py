@@ -30,8 +30,10 @@ def remove_account(accounts, id_to_remove):
     for account in accounts:
         if account["id"] == id_to_remove:
             accounts.remove(account)
-            return True  # Account removed
-    return False  # Account not found
+            # Account removed
+            return True  
+            # Account not found
+    return False  
 
 def add_interest(accounts, interest_rate):
     for account in accounts:
