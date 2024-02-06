@@ -32,9 +32,9 @@ def save_json(file_path, data):
 def input_text(prompt):
     """Get valid text input from the user."""
     while True:
-        text_input = input(prompt).strip()
-        if text_input:
-            return text_input
+        input_text = input(prompt).strip()
+        if input_text:
+            return input_text
         else:
             print("Error: Text input must contain at least one character.")
 
@@ -63,4 +63,6 @@ print(f"Last Name: {last_name}")
 print(f"Account Number: {account_no}")
 print(f"Sort Code: {sort_code}")
 print(f"Initial Balance: {initial_balance}")
+
+
 
