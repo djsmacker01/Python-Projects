@@ -25,7 +25,7 @@ elif x == "2":
 
 
 import json
-
+#function that take in two arguments
 def remove_account(accounts, id_to_remove):
     for account in accounts:
         if account["id"] == id_to_remove:
@@ -38,7 +38,7 @@ def add_interest(accounts, interest_rate):
         account["balance"] *= (1 + (interest_rate / 100))
 
 # Read JSON data
-with open("Data/accounts.json", "r") as infile:
+with open("Account_Setup/accounts.json", "r") as infile:
     accounts_data = json.load(infile)
 
 # User input
