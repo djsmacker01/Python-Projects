@@ -20,3 +20,5 @@ elif x == "2":
                 with open("Data/accounts_with_interest.json", "w") as outfile:
                     accounts_converted_to_json_format_ = json.dumps(ACCOUNTS, indent=4)
                     outfile.write(accounts_converted_to_json_format_)
+
+                    
