@@ -144,7 +144,7 @@ def main():
             # Implement account removal logic here
             pass
         elif choice == "2":
-            # Implement add interest logic here
+            # Implement add interest logic here to perform the account deletion
             pass
         elif choice == "3":
             create_new_account()
